@@ -11,7 +11,7 @@ const AboutSection: React.FC = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">About Us</h2>
         <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16">
-          Nerva Consulting is dedicated to helping businesses achieve their goals through expert consulting services. Our team of experienced consultants works closely with clients to develop tailored strategies that drive success.
+        Horizon Poland is your trusted partner for navigating life in Poland. Whether you\'re a student, professional, entrepreneur, or family, we provide tailored support for everything from business setup to education, relocation, and legal assistance—helping you build your future with ease.
         </p>
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">Our Team</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">

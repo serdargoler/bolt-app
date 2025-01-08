@@ -6,34 +6,52 @@ const FAQSection: React.FC = () => {
   const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
+  // Updated FAQs (ensure the content reflects accurate, relevant FAQs for your audience)
   const faqs = [
     {
-      question: t('What documents do I need to start a company in Poland?'),
+      question: t('faq.startingCompany.question'),
       answer: (
         <ul className="list-disc list-inside">
-          <li>{t('Valid passport or ID')}</li>
-          <li>{t('Proof of address')}</li>
-          <li>{t('Company registration form')}</li>
-          <li>{t('Articles of association')}</li>
-          <li>{t('Proof of capital contribution')}</li>
-          <li>{t('Tax identification number (NIP)')}</li>
+          <li>{t('faq.startingCompany.answer1')}</li>
+          <li>{t('faq.startingCompany.answer2')}</li>
+          <li>{t('faq.startingCompany.answer3')}</li>
+          <li>{t('faq.startingCompany.answer4')}</li>
+          <li>{t('faq.startingCompany.answer5')}</li>
         </ul>
       ),
     },
     {
-      question: t('How can I apply for a residence permit in Poland?'),
+      question: t('faq.residencePermit.question'),
       answer: (
         <ul className="list-disc list-inside">
-          <li>{t('Completed application form')}</li>
-          <li>{t('Valid passport')}</li>
-          <li>{t('Proof of health insurance')}</li>
-          <li>{t('Proof of sufficient financial means')}</li>
-          <li>{t('Proof of accommodation')}</li>
-          <li>{t('Reason for applying (e.g., work, study, family reunification)')}</li>
+          <li>{t('faq.residencePermit.answer1')}</li>
+          <li>{t('faq.residencePermit.answer2')}</li>
+          <li>{t('faq.residencePermit.answer3')}</li>
+          <li>{t('faq.residencePermit.answer4')}</li>
+          <li>{t('faq.residencePermit.answer5')}</li>
         </ul>
       ),
     },
-    // Add more FAQs as needed
+    {
+      question: t('faq.propertySearch.question'),
+      answer: (
+        <ul className="list-disc list-inside">
+          <li>{t('faq.propertySearch.answer1')}</li>
+          <li>{t('faq.propertySearch.answer2')}</li>
+          <li>{t('faq.propertySearch.answer3')}</li>
+        </ul>
+      ),
+    },
+    {
+      question: t('faq.education.question'),
+      answer: (
+        <ul className="list-disc list-inside">
+          <li>{t('faq.education.answer1')}</li>
+          <li>{t('faq.education.answer2')}</li>
+          <li>{t('faq.education.answer3')}</li>
+        </ul>
+      ),
+    },
   ];
 
   const toggleFAQ = (index: number) => {
@@ -43,7 +61,7 @@ const FAQSection: React.FC = () => {
   return (
     <section className="py-20 bg-white" id="faq">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">{t('Frequently Asked Questions')}</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">{t('faq.sectionTitle')}</h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="border-b border-gray-200 pb-4">

@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             <Briefcase className="h-8 w-8 text-blue-600" />
           </Link>
           <Link to="/" className="text-xl font-bold text-gray-800">
-            {t('Nerva Consulting')}
+            {t('Horizon Poland')}
           </Link>
         </div>
         <nav className="hidden md:flex space-x-8 mx-auto">

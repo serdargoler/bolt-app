@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import TRANSLATION_KEYS from '../utils/translationKeys';
 
 const articles = [
   {
@@ -40,18 +42,22 @@ const articles = [
   },
 ];
 
+
 const BlogSection: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <section className="py-20 bg-white" id="blog">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">Blog & Resources</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">{t(TRANSLATION_KEYS.BLOG.SECTION_TITLE)}</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           {articles.map((article) => (
             <div key={article.id} className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
               <p className="text-gray-600 mb-2">{article.date}</p>
               <p className="text-gray-600 mb-4">{article.summary}</p>
-              <Link to={`/blog/${article.id}`} className="text-blue-600 hover:underline">Read More</Link>
+              <Link to={`/blog/${article.id}`} className="text-blue-600 hover:underline">
+                {t(TRANSLATION_KEYS.BLOG.READ_MORE)}
+              </Link>
             </div>
           ))}
         </div>

@@ -1,0 +1,59 @@
+{
+    "blog": {
+      "sectionTitle": "Blog & Resources",
+      "readMore": "Read More",
+      "articles": {
+        "article1": {
+          "title": "How to Apply for a Residence Permit in Poland",
+          "date": "2023-10-01",
+          "summary": "Applying for a residence permit in Poland can be a complex process..."
+        }
+        
+      }
+    },
+      "faq": {
+        "sectionTitle": "Frequently Asked Questions",
+        "startingCompany": {
+          "question": "How can I start a company in Poland?",
+          "answer1": "You need to choose a business structure (e.g., sole proprietorship, limited liability company).",
+          "answer2": "Register the company with the Central Registration and Information on Business (CEIDG).",
+          "answer3": "Open a business bank account and provide necessary documentation.",
+          "answer4": "Apply for VAT registration if needed.",
+          "answer5": "Consider obtaining professional legal and accounting advice."
+        },
+        "residencePermit": {
+          "question": "How can I apply for a residence permit?",
+          "answer1": "You need to gather the required documents, including proof of employment or income.",
+          "answer2": "Submit your application to the relevant Voivodeship Office.",
+          "answer3": "Wait for approval, which may take several months.",
+          "answer4": "After approval, receive your residence card and register your address in Poland.",
+          "answer5": "Ensure compliance with ongoing residence permit renewals."
+        },
+        "propertySearch": {
+          "question": "How can I find a property in Poland?",
+          "answer1": "Start by researching online real estate portals.",
+          "answer2": "Contact real estate agents to assist with your search.",
+          "answer3": "Consider the location, budget, and your specific needs when making a decision."
+        },
+        "education": {
+          "question": "How can I find educational institutions for my children?",
+          "answer1": "Research schools based on your location and children's age.",
+          "answer2": "Look into private and public school options, and consider international schools if needed.",
+          "answer3": "Contact schools for admissions procedures and available spots."
+        }
+      },
+      "services": {
+        "section_title": "Our Services",
+        "business_consulting": "Business Consulting",
+        "business_consulting_desc": "Providing comprehensive guidance to entrepreneurs for setting up businesses in Poland.",
+        "educational_consulting": "Educational Consulting for International Students",
+        "educational_consulting_desc": "Helping students navigate the academic landscape in Poland.",
+        "legal_administrative_assistance": "Legal & Administrative Assistance",
+        "legal_administrative_assistance_desc": "Offering support for expats to handle bureaucratic processes efficiently.",
+        "real_estate_financial_collaboration": "Real Estate & Financial Collaboration",
+        "real_estate_financial_collaboration_desc": "We facilitate property transactions and financial solutions by connecting clients with certified brokers and advisors.",
+        "relocation_lifestyle_support": "Relocation & Lifestyle Support",
+        "relocation_lifestyle_support_desc": "Helping individuals and families adapt to life in Poland with tailored relocation packages."
+      }
+    }    
+  

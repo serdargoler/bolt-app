@@ -1,0 +1,60 @@
+{
+    "blog": {
+      "sectionTitle": "Blog & Resources",
+      "readMore": "Read More",
+      "articles": {
+        "article1": {
+          "title": "How to Apply for a Residence Permit in Poland",
+          "date": "2023-10-01",
+          "summary": "Applying for a residence permit in Poland can be a complex process..."
+        }
+        
+      }
+    },
+    "services": {
+      "section_title": "Nasze Usługi",
+      "business_consulting": "Doradztwo Biznesowe",
+      "business_consulting_desc": "Zapewnienie kompleksowego doradztwa dla przedsiębiorców zakładających firmy w Polsce. Kluczowe Usługi: Pomoc w rejestracji firmy, Usługi księgowe i podatkowe, Wsparcie bankowe i pozwolenia na pracę dla pracowników.",
+      "educational_consulting": "Doradztwo Edukacyjne dla Studentów Międzynarodowych",
+      "educational_consulting_desc": "Pomoc studentom w poruszaniu się po polskim krajobrazie akademickim. Kluczowe Usługi: Wybór uniwersytetu i szkoły, Pomoc w aplikacji i wizach, Wprowadzenie, Zakwaterowanie i orientacja kulturowa.",
+      "legal_administrative_assistance": "Pomoc Prawna i Administracyjna",
+      "legal_administrative_assistance_desc": "Wsparcie dla obcokrajowców w efektywnym zarządzaniu procesami biurokratycznymi. Kluczowe Usługi: Wnioski o numer PESEL i pozwolenie na pobyt, Składanie deklaracji podatkowych i doradztwo w zakresie zgodności, Usługi tłumaczeniowe i notarialne.",
+      "real_estate_financial_collaboration": "Współpraca w Zakresie Nieruchomości i Finansów",
+      "real_estate_financial_collaboration_desc": "Ułatwiamy transakcje nieruchomościowe i rozwiązania finansowe, łącząc klientów z certyfikowanymi brokerami i doradcami. Kluczowe Usługi: Pomoc w poszukiwaniu nieruchomości, Badanie kredytów, Zgodność z przepisami prawnymi. Nie oferujemy bezpośrednio usług finansowych ani prawnych. Działamy jako pośrednicy, łącząc Cię z certyfikowanymi i licencjonowanymi profesjonalistami, którzy przestrzegają polskich przepisów.",
+      "relocation_lifestyle_support": "Wsparcie w Zakresie Przeprowadzki i Stylu Życia",
+      "relocation_lifestyle_support_desc": "Pomoc osobom i rodzinom w adaptacji do życia w Polsce dzięki dostosowanym pakietom relokacyjnym. Kluczowe Usługi: Zarządzanie przeprowadzką, Szkolenia językowe i warsztaty kulturowe, Koordynacja w sytuacjach awaryjnych."
+    },
+      "faq": {
+        "sectionTitle": "Najczęściej zadawane pytania",
+        "startingCompany": {
+          "question": "Jak mogę założyć firmę w Polsce?",
+          "answer1": "Musisz wybrać formę prawną firmy (np. jednoosobowa działalność gospodarcza, spółka z ograniczoną odpowiedzialnością).",
+          "answer2": "Zarejestruj firmę w Centralnej Ewidencji i Informacji o Działalności Gospodarczej (CEIDG).",
+          "answer3": "Otwórz konto bankowe dla firmy i dostarcz wymagane dokumenty.",
+          "answer4": "Zarejestruj się do VAT, jeśli to konieczne.",
+          "answer5": "Rozważ skorzystanie z usług profesjonalnych doradców prawnych i księgowych."
+        },
+        "residencePermit": {
+          "question": "Jak mogę ubiegać się o zezwolenie na pobyt?",
+          "answer1": "Musisz zebrać wymagane dokumenty, w tym dowody zatrudnienia lub dochodów.",
+          "answer2": "Złóż wniosek w odpowiednim Urzędzie Wojewódzkim.",
+          "answer3": "Czekaj na decyzję, która może potrwać kilka miesięcy.",
+          "answer4": "Po otrzymaniu zgody, odbierz kartę pobytu i zarejestruj swój adres w Polsce.",
+          "answer5": "Pamiętaj o terminowych odnowieniach zezwolenia na pobyt."
+        },
+        "propertySearch": {
+          "question": "Jak mogę znaleźć nieruchomość w Polsce?",
+          "answer1": "Zacznij od przeglądania internetowych portali nieruchomości.",
+          "answer2": "Skontaktuj się z agentami nieruchomości, którzy pomogą w poszukiwaniach.",
+          "answer3": "Weź pod uwagę lokalizację, budżet i swoje potrzeby przy podejmowaniu decyzji."
+        },
+        "education": {
+          "question": "Jak mogę znaleźć szkoły dla moich dzieci?",
+          "answer1": "Zrób research szkół w zależności od lokalizacji i wieku dzieci.",
+          "answer2": "Zastanów się nad szkołami prywatnymi i publicznymi oraz szkołami międzynarodowymi, jeśli to konieczne.",
+          "answer3": "Skontaktuj się ze szkołami w celu poznania procedury rekrutacji oraz dostępnych miejsc."
+        }
+      }
+        
+  }
+  
