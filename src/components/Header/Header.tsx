@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Briefcase } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import TRANSLATION_KEYS from '../utils/translationKeys';
 
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -27,12 +28,12 @@ const Header: React.FC = () => {
             {t('Horizon Poland')}
           </Link>
         </div>
-        <nav className="hidden md:flex space-x-8 mx-auto">
-          <Link to="/" className="text-gray-600 hover:text-blue-600 transition-colors">{t('Home')}</Link>
-          <Link to="/services" className="text-gray-600 hover:text-blue-600 transition-colors">{t('Services')}</Link>
-          <a href="/#about" className="text-gray-600 hover:text-blue-600 transition-colors">{t('About')}</a>
-          <Link to="/blog" className="text-gray-600 hover:text-blue-600 transition-colors">{t('Blog')}</Link>
-          <a href="/#contact" className="text-gray-600 hover:text-blue-600 transition-colors">{t('Contact')}</a>
+        <nav className="hidden md:flex space-x-8 justify-center flex-grow">
+          <Link to="/" className="text-gray-600 hover:text-blue-600 transition-colors">{t(TRANSLATION_KEYS.NAVBAR.HOME)}</Link>
+          <Link to="/services" className="text-gray-600 hover:text-blue-600 transition-colors">{t(TRANSLATION_KEYS.NAVBAR.SERVICES)}</Link>
+          <a href="/#about" className="text-gray-600 hover:text-blue-600 transition-colors">{t(TRANSLATION_KEYS.NAVBAR.ABOUT)}</a>
+          <Link to="/blog" className="text-gray-600 hover:text-blue-600 transition-colors">{t(TRANSLATION_KEYS.NAVBAR.BLOG)}</Link>
+          <a href="/#contact" className="text-gray-600 hover:text-blue-600 transition-colors">{t(TRANSLATION_KEYS.NAVBAR.CONTACT)}</a>
         </nav>
         <div className="relative">
           <button onClick={toggleDropdown} className="text-gray-600 hover:text-blue-600 transition-colors">

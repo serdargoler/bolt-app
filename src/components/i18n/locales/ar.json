@@ -1,28 +1,80 @@
 {
-    "blog": {
-      "sectionTitle": "Blog & Resources",
-      "readMore": "Read More",
-      "articles": {
-        "article1": {
-          "title": "How to Apply for a Residence Permit in Poland",
-          "date": "2023-10-01",
-          "summary": "Applying for a residence permit in Poland can be a complex process..."
-        }
-        
+  "navbar": {
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "about": "عن الشركة",
+    "blog": "المدونة",
+    "contact": "التواصل"
+  },
+  "blog": {
+    "coming_soon": "مدونتنا قيد الإعداد!",
+    "stay_tuned": "ابقَ على اطلاع للحصول على التحديثات والمقالات المفيدة.",
+    "description": "سنشارك رؤى الخبراء والنصائح والأخبار."
+  },
+  "faq": {
+    "coming_soon": "الأسئلة الشائعة قيد الإعداد!",
+    "stay_tuned": "ابقَ على اطلاع للحصول على التحديثات والأسئلة والإجابات المفيدة.",
+    "description": "سنشارك رؤى الخبراء والنصائح."
+  },
+  "services": {
+    "section_title": "خدماتنا",
+    "business_consulting": "الاستشارات التجارية",
+    "business_consulting_desc": "تقديم إرشادات شاملة لرواد الأعمال الذين يرغبون في تأسيس أعمال في بولندا.",
+    "educational_consulting": "الاستشارات التعليمية للطلاب الدوليين",
+    "educational_consulting_desc": "مساعدة الطلاب في التنقل داخل البيئة الأكاديمية في بولندا.",
+    "legal_administrative_assistance": "الدعم القانوني والإداري",
+    "legal_administrative_assistance_desc": "مساعدة الأجانب في إدارة العمليات البيروقراطية بكفاءة.",
+    "real_estate_financial_collaboration": "التعاون في العقارات والتمويل",
+    "real_estate_financial_collaboration_desc": "تسهيل عمليات العقارات والحلول المالية من خلال ربط العملاء بالوكلاء والمستشارين المعتمدين.",
+    "relocation_lifestyle_support": "دعم الانتقال وأسلوب الحياة",
+    "relocation_lifestyle_support_desc": "تقديم حزم انتقال مخصصة لمساعدة الأفراد والعائلات على التكيف مع الحياة في بولندا."
+  },
+  "hero": {
+    "title": "توسيع الأفق، تبسيط التحولات.",
+    "description": "تحقيق أهدافك في بولندا باستخدام خدماتنا الاستشارية والدعم المخصصة",
+    "ctaButton": "الحجز عبر الإنترنت"
+  },
+  "footer": {
+    "quickLinks": "الروابط السريعة",
+    "followUs": "تابعنا",
+    "allRightsReserved": "جميع الحقوق محفوظة."
+  },
+  "about": {
+    "sectionTitle": "عن الشركة",
+    "teamTitle": "فريقنا",
+    "description": "Horizon Poland is your trusted partner for navigating life in Poland. Whether you're a student, professional, entrepreneur, or family, we provide tailored support for everything from business setup to education, relocation, and legal assistance—helping you build your future with ease.",
+    "team": {
+      "serdar": {
+        "name": "Serdar Göler",
+        "role": "الاستشاري",
+        "languages": "اللغات: اللهجة البولندية، الإنجليزية، التركية"
+      },
+      "izem": {
+        "name": "Izem Göler",
+        "role": "الاستشاري",
+        "languages": "اللغات: اللهجة البولندية، الإنجليزية، التركية"
+      },
+      "chaima": {
+        "name": "Chaima Gaaloul",
+        "role": "الاستشاري",
+        "languages": "اللغات: اللهجة البولندية، الإنجليزية، العربية، الفرنسية، الألمانية"
       }
-    },
-    "services": {
-      "section_title": "خدماتنا",
-      "business_consulting": "استشارات الأعمال",
-      "business_consulting_desc": "تقديم إرشادات شاملة لرواد الأعمال لإنشاء الأعمال في بولندا. الخدمات الرئيسية: المساعدة في تسجيل الشركة، خدمات المحاسبة والضرائب، دعم البنوك وتصاريح العمل للموظفين.",
-      "educational_consulting": "الاستشارات التعليمية للطلاب الدوليين",
-      "educational_consulting_desc": "مساعدة الطلاب على التنقل في المشهد الأكاديمي في بولندا. الخدمات الرئيسية: اختيار الجامعة والمدرسة، المساعدة في التقديم والتأشيرات، التوجيه، الإسكان والتوجيه الثقافي.",
-      "legal_administrative_assistance": "المساعدة القانونية والإدارية",
-      "legal_administrative_assistance_desc": "تقديم الدعم للمغتربين للتعامل مع العمليات البيروقراطية بكفاءة. الخدمات الرئيسية: طلبات الحصول على رقم PESEL وتصريح الإقامة، تقديم الإقرارات الضريبية وإرشادات الامتثال، خدمات الترجمة والتوثيق.",
-      "real_estate_financial_collaboration": "التعاون العقاري والمالي",
-      "real_estate_financial_collaboration_desc": "نحن نسهل المعاملات العقارية والحلول المالية من خلال ربط العملاء بالوسطاء والمستشارين المعتمدين. الخدمات الرئيسية: مساعدة في البحث عن العقارات، استكشاف القروض، الامتثال القانوني. نحن لا نقدم الخدمات المالية أو القانونية مباشرة. نحن نعمل كوسطاء، نربطك بالمهنيين المعتمدين والمرخصين الذين يمتثلون للوائح البولندية.",
-      "relocation_lifestyle_support": "دعم الانتقال ونمط الحياة",
-      "relocation_lifestyle_support_desc": "مساعدة الأفراد والعائلات على التكيف مع الحياة في بولندا من خلال حزم الانتقال المخصصة. الخدمات الرئيسية: إدارة الانتقال، التدريب اللغوي وورش العمل الثقافية، التنسيق في حالات الطوارئ."
+    }
+  },
+  "contact": {
+    "sectionTitle": "اتصل بنا",
+    "description": "اتصل بنا اليوم لتحديد موعد للمقابلة وتعلم كيف يمكننا أن نساعدك على تحقيق أهدافك.",
+    "detailsTitle": "بيانات الاتصال",
+    "address": "العنوان: الكراكوف، بولندا",
+    "phone": "الهاتف: +48 575 527 921",
+    "email": "البريد الإلكتروني: contact@horizonpoland.com",
+    "form": {
+      "title": "نموذج الاتصال",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف (اختياري)",
+      "message": "الرسالة",
+      "submit": "إرسال الرسالة"
     }
   }
-  
+}

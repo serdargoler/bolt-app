@@ -1,28 +1,81 @@
 {
-    "blog": {
-      "sectionTitle": "Blog & Resources",
-      "readMore": "Read More",
-      "articles": {
-        "article1": {
-          "title": "How to Apply for a Residence Permit in Poland",
-          "date": "2023-10-01",
-          "summary": "Applying for a residence permit in Poland can be a complex process..."
-        }
-        
-      }
-    },
+  "navbar": {
+    "home": "Anasayfa",
+    "services": "Servisler",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "blog": {
+    "coming_soon": "Blogumuz yakında yayında!",
+    "stay_tuned": "Güncellemeler ve faydalı makaleler için bizi takip etmeye devam edin.",
+    "description": "Uzman görüşlerini, ipuçlarını ve haberleri paylaşacağız."
+  },
+  "faq": {
+    "coming_soon": "SSS yakında yayında!",
+    "stay_tuned": "Güncellemeler ve faydalı soru-cevaplar için bizi takip etmeye devam edin.",
+    "description": "Uzman görüşlerini ve ipuçlarını paylaşacağız."
+  },
     "services": {
       "section_title": "Hizmetlerimiz",
       "business_consulting": "İş Danışmanlığı",
-      "business_consulting_desc": "Polonya'da iş kurmak isteyen girişimcilere kapsamlı rehberlik sağlama. Ana Hizmetler: Şirket kayıt yardımı, Muhasebe ve vergi hizmetleri, Bankacılık desteği ve çalışan çalışma izinleri.",
+      "business_consulting_desc": "Polonya'da iş kurmak isteyen girişimcilere kapsamlı rehberlik sağlama.",
       "educational_consulting": "Uluslararası Öğrenciler için Eğitim Danışmanlığı",
-      "educational_consulting_desc": "Öğrencilerin Polonya'daki akademik ortamda yolunu bulmasına yardımcı olma. Ana Hizmetler: Üniversite ve okul seçimi, Başvuru ve vize yardımı, Oryantasyon, Konaklama ve kültürel uyum.",
+      "educational_consulting_desc": "Öğrencilerin Polonya'daki akademik ortamda yolunu bulmasına yardımcı olma.",
       "legal_administrative_assistance": "Hukuki ve İdari Yardım",
-      "legal_administrative_assistance_desc": "Yabancıların bürokratik süreçleri verimli bir şekilde yönetmelerine destek sağlama. Ana Hizmetler: PESEL numarası ve oturma izni başvuruları, Vergi beyannamesi ve uyum rehberliği, Tercüme ve noter hizmetleri.",
+      "legal_administrative_assistance_desc": "Yabancıların bürokratik süreçleri verimli bir şekilde yönetmelerine destek sağlama.",
       "real_estate_financial_collaboration": "Gayrimenkul ve Finansal İşbirliği",
-      "real_estate_financial_collaboration_desc": "Müşterileri sertifikalı brokerlar ve danışmanlarla buluşturarak gayrimenkul işlemlerini ve finansal çözümleri kolaylaştırıyoruz. Ana Hizmetler: Emlak Arama Yardımı, Kredi Araştırması, Hukuki Uyum. Doğrudan finansal veya hukuki hizmetler sunmuyoruz. Polonya düzenlemelerine uyan sertifikalı ve lisanslı profesyonellerle sizi buluşturan aracılar olarak hareket ediyoruz.",
+      "real_estate_financial_collaboration_desc": "Müşterileri sertifikalı brokerlar ve danışmanlarla buluşturarak gayrimenkul işlemlerini ve finansal çözümleri kolaylaştırıyoruz.",
       "relocation_lifestyle_support": "Taşınma ve Yaşam Tarzı Desteği",
-      "relocation_lifestyle_support_desc": "Bireylerin ve ailelerin Polonya'daki hayata uyum sağlamalarına yardımcı olmak için özel taşınma paketleri sunuyoruz. Ana Hizmetler: Taşınma yönetimi, Dil eğitimi ve kültürel atölyeler, Acil durum koordinasyonu."
+      "relocation_lifestyle_support_desc": "Bireylerin ve ailelerin Polonya'daki hayata uyum sağlamalarına yardımcı olmak için özel taşınma paketleri sunuyoruz."
+    },
+  "hero": {
+    "title": "Expanding Horizons, Simplifying Transitions.",
+    "description": "Polonya'daki yaşamınızı kolaylaştırmak için özel danışmanlık ve destek hizmetleri sunuyoruz",
+    "ctaButton": "Online Randevu Al"
+  },
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "followUs": "Bizi Takip Edin",
+    "allRightsReserved": "Tüm hakları saklıdır."
+  },
+  "about": {
+    "sectionTitle": "Hakkımızda",
+    "teamTitle": "Ekibimiz",
+    "description": "Horizon Poland, Polonya'daki yaşamınızda güvenilir ortağınızdır. Öğrenci, profesyonel, girişimci veya aile olun, iş kurulumundan eğitime, taşınmadan yasal yardıma kadar her konuda size özel destek sağlıyoruz—geleceğinizi kolaylıkla inşa etmenize yardımcı oluyoruz.",
+    "team": {
+      "serdar": {
+        "name": "Serdar Göler",
+        "role": "Danışman",
+        "languages": "Konuştuğu Diller: Lehçe, İngilizce, Türkçe"
+      },
+      "izem": {
+        "name": "İzem Göler",
+        "role": "Danışman",
+        "languages": "Konuştuğu Diller: Lehçe, İngilizce, Türkçe"
+      },
+      "chaima": {
+        "name": "Chaima Gaaloul",
+        "role": "Danışman",
+        "languages": "Konuştuğu Diller: Lehçe, İngilizce, Arapça, Fransızca, Almanca"
+      }
+    }
+  },
+  "contact": {
+    "sectionTitle": "İletişim",
+    "description": "Danışmanlık randevusu almak ve hedeflerinize nasıl ulaşabileceğinizi öğrenmek için bugün bizimle iletişime geçin.",
+    "detailsTitle": "İletişim Bilgileri",
+    "address": "Adres: Krakow, Polonya",
+    "phone": "Telefon: +48 575 527 921",
+    "email": "E-posta: contact@horizonpoland.com",
+    "form": {
+      "title": "İletişim Formu",
+      "name": "İsim",
+      "email": "E-posta",
+      "phone": "Telefon (opsiyonel)",
+      "message": "Mesaj",
+      "submit": "Mesaj Gönder"
     }
   }
+}
   

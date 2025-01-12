@@ -1,31 +1,72 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import johnDoePhoto from '../assets/images/team/gregory-hayes-h5cd51KXmRQ-unsplash.jpg';
-import janeDoePhoto from '../assets/images/team/viktor-bystrov-BHNVH_Ov9P8-unsplash.jpg';
+import SerdarPhoto from '../assets/images/team/serdar-goler.jpg';
+import IzemPhoto from '../assets/images/team/izem-goler.jpg';
+import ChaimaPhoto from '../assets/images/team/chaima-gaaloul.jpg';
+import TRANSLATION_KEYS from './utils/translationKeys';
+
+// Dil bayrakları için emoji kodları
+const FLAGS = {
+  PL: "🇵🇱",
+  EN: "🇬🇧",
+  TR: "🇹🇷",
+  AR: "🇹🇳",
+  FR: "🇫🇷",
+  DE: "🇩🇪"
+};
 
 const AboutSection: React.FC = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <section className="py-20 bg-white fade-in" id="about">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">About Us</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
+          {t(TRANSLATION_KEYS.ABOUT.SECTION_TITLE)}
+        </h2>
         <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16">
-        Horizon Poland is your trusted partner for navigating life in Poland. Whether you\'re a student, professional, entrepreneur, or family, we provide tailored support for everything from business setup to education, relocation, and legal assistance—helping you build your future with ease.
+          {t(TRANSLATION_KEYS.ABOUT.DESCRIPTION)}
         </p>
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">Our Team</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
+          {t(TRANSLATION_KEYS.ABOUT.TEAM_TITLE)}
+        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="text-center">
-            <img src={johnDoePhoto} alt="John Doe" className="w-32 h-32 rounded-full mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-2">John Doe</h3>
-            <p className="text-gray-600">Business Consultant</p>
+            <img src={SerdarPhoto} alt={t(TRANSLATION_KEYS.ABOUT.TEAM.SERDAR.NAME)} className="w-32 h-32 rounded-full mx-auto mb-4" />
+            <h3 className="text-xl font-semibold mb-2">
+              {t(TRANSLATION_KEYS.ABOUT.TEAM.SERDAR.NAME)}
+            </h3>
+            <p className="text-gray-600 mb-2">
+              {t(TRANSLATION_KEYS.ABOUT.TEAM.SERDAR.ROLE)}
+            </p>
+            <p className="text-2xl" title={t(TRANSLATION_KEYS.ABOUT.TEAM.SERDAR.LANGUAGES)}>
+              {FLAGS.PL} {FLAGS.EN} {FLAGS.TR}
+            </p>
           </div>
           <div className="text-center">
-            <img src={janeDoePhoto} alt="Jane Doe" className="w-32 h-32 rounded-full mx-auto mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-600">Educational Consultant</p>
+            <img src={IzemPhoto} alt={t(TRANSLATION_KEYS.ABOUT.TEAM.IZEM.NAME)} className="w-32 h-32 rounded-full mx-auto mb-4" />
+            <h3 className="text-xl font-semibold mb-2">
+              {t(TRANSLATION_KEYS.ABOUT.TEAM.IZEM.NAME)}
+            </h3>
+            <p className="text-gray-600 mb-2">
+              {t(TRANSLATION_KEYS.ABOUT.TEAM.IZEM.ROLE)}
+            </p>
+            <p className="text-2xl" title={t(TRANSLATION_KEYS.ABOUT.TEAM.IZEM.LANGUAGES)}>
+              {FLAGS.PL} {FLAGS.EN} {FLAGS.TR}
+            </p>
           </div>
-          {/* Repeat for other team members */}
+          <div className="text-center">
+            <img src={ChaimaPhoto} alt={t(TRANSLATION_KEYS.ABOUT.TEAM.CHAIMA.NAME)} className="w-32 h-32 rounded-full mx-auto mb-4" />
+            <h3 className="text-xl font-semibold mb-2">
+              {t(TRANSLATION_KEYS.ABOUT.TEAM.CHAIMA.NAME)}
+            </h3>
+            <p className="text-gray-600 mb-2">
+              {t(TRANSLATION_KEYS.ABOUT.TEAM.CHAIMA.ROLE)}
+            </p>
+            <p className="text-2xl" title={t(TRANSLATION_KEYS.ABOUT.TEAM.CHAIMA.LANGUAGES)}>
+              {FLAGS.PL} {FLAGS.EN} {FLAGS.AR} {FLAGS.FR} {FLAGS.DE}
+            </p>
+          </div>
         </div>
       </div>
     </section>

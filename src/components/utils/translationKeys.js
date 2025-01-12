@@ -1,7 +1,17 @@
 const TRANSLATION_KEYS = {
+  NAVBAR: {
+    HOME: 'navbar.home',
+    SERVICES: 'navbar.services',
+    ABOUT: 'navbar.about',
+    BLOG: 'navbar.blog',
+    CONTACT: 'navbar.contact'
+  },
   BLOG: {
     SECTION_TITLE: 'blog.sectionTitle',
     READ_MORE: 'blog.readMore',
+    COMING_SOON: 'blog.coming_soon',
+    STAY_TUNED: 'blog.stay_tuned',
+    DESCRIPTION: 'blog.description',
     ARTICLES: {
       ARTICLE1: {
         TITLE: 'blog.article1.title',
@@ -68,6 +78,54 @@ const TRANSLATION_KEYS = {
     RELOCATION_LIFESTYLE_SUPPORT: 'services.relocation_lifestyle_support',
     RELOCATION_LIFESTYLE_SUPPORT_DESC: 'services.relocation_lifestyle_support_desc',
   },
+  HERO: {
+    TITLE: 'hero.title',
+    DESCRIPTION: 'hero.description',
+    CTA_BUTTON: 'hero.ctaButton'
+  },
+  FOOTER: {
+    QUICK_LINKS: 'footer.quickLinks',
+    FOLLOW_US: 'footer.followUs',
+    ALL_RIGHTS_RESERVED: 'footer.allRightsReserved'
+  },
+  ABOUT: {
+    SECTION_TITLE: 'about.sectionTitle',
+    TEAM_TITLE: 'about.teamTitle',
+    DESCRIPTION: 'about.description',
+    TEAM: {
+      SERDAR: {
+        NAME: 'about.team.serdar.name',
+        ROLE: 'about.team.serdar.role',
+        LANGUAGES: 'about.team.serdar.languages'
+      },
+      IZEM: {
+        NAME: 'about.team.izem.name',
+        ROLE: 'about.team.izem.role',
+        LANGUAGES: 'about.team.izem.languages'
+      },
+      CHAIMA: {
+        NAME: 'about.team.chaima.name',
+        ROLE: 'about.team.chaima.role',
+        LANGUAGES: 'about.team.chaima.languages'
+      }
+    }
+  },
+  CONTACT: {
+    SECTION_TITLE: 'contact.sectionTitle',
+    DESCRIPTION: 'contact.description',
+    DETAILS_TITLE: 'contact.detailsTitle',
+    ADDRESS: 'contact.address',
+    PHONE: 'contact.phone',
+    EMAIL: 'contact.email',
+    FORM: {
+      TITLE: 'contact.form.title',
+      NAME: 'contact.form.name',
+      EMAIL: 'contact.form.email',
+      PHONE: 'contact.form.phone',
+      MESSAGE: 'contact.form.message',
+      SUBMIT: 'contact.form.submit'
+    }
+  }
 };
 
 export default TRANSLATION_KEYS;
